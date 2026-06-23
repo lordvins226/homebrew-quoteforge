@@ -1,28 +1,28 @@
 class Quoteforge < Formula
   desc "Developer-native typographic social media card and carousel generator"
   homepage "https://github.com/lordvins226/quoteforge"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/lordvins226/quoteforge/releases/download/v#{version}/quoteforge-aarch64-apple-darwin.tar.gz"
-      sha256 "8acee532cd4d0f6765f385256e7d104558f9170ce144dc3447594c5b6dfe08d8"
+      sha256 "b8d36708cd762cc415c6ab51ec174551719b28e1b8314f1bcd15b5d550fd6a35"
     end
     on_intel do
       url "https://github.com/lordvins226/quoteforge/releases/download/v#{version}/quoteforge-x86_64-apple-darwin.tar.gz"
-      sha256 "2fba5ec1042ccd60fcd801bea4ab5c129235823b4fedacf45104302c049bb6d7"
+      sha256 "5d994afac1c64cb13364707436132a7d853065a8ba863cd09133b60a224253be"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/lordvins226/quoteforge/releases/download/v#{version}/quoteforge-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4a4e05344d75c41653480a474670a2d47a32b9e5ddbf76c0f99972838666ddc7"
+      sha256 "4e57c2e777fc812fd6245f347e4a0207cced9d206ff02cd8480a0a1a06981c75"
     end
     on_intel do
       url "https://github.com/lordvins226/quoteforge/releases/download/v#{version}/quoteforge-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0c36822159d47eda9f638ec8579173ea74485b1387442b0cf7b7e3341bb2683c"
+      sha256 "d071c754b7feb594d4dc66b2820e55d95e5f8c93722d6722393bbd7e17786cec"
     end
   end
 
