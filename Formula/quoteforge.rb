@@ -1,5 +1,5 @@
 class Quoteforge < Formula
-  desc "Developer-native typographic social media card and carousel generator"
+  desc "Developer-native typographic card, carousel, and banner generator"
   homepage "https://github.com/lordvins226/quoteforge"
   version "0.6.0"
   license "MIT"
